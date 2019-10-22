@@ -21,5 +21,15 @@ public class Main {
         System.out.println(BarkingDog.shouldWakeUp(true,8));
         System.out.println(BarkingDog.shouldWakeUp(true,-1));
         System.out.println("");
+
+        System.out.println("Leap year calculator:");
+        System.out.println(LeapYearCalculator.isLeapYear(1700));
+        System.out.println(LeapYearCalculator.isLeapYear(-5));
+        System.out.println(LeapYearCalculator.isLeapYear(99999));
+        System.out.println(LeapYearCalculator.isLeapYear(1924));
+        System.out.println(LeapYearCalculator.isLeapYear(1800));
+        System.out.println(LeapYearCalculator.isLeapYear(2600));
+        System.out.println(LeapYearCalculator.isLeapYear(1600));
+        System.out.println("");
     }
 }
