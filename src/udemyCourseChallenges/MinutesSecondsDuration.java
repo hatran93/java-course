@@ -1,10 +1,11 @@
 package udemyCourseChallenges;
 
 public class MinutesSecondsDuration {
+    private static final String INVALID_VALUE_MESSAGE = "Invalid value";
     public static String getDurationString(int minutes, int seconds) {
         // check parameters have valid values
         if (minutes < 0 || seconds < 0 || seconds > 59) {
-            return "Invalid values";
+            return INVALID_VALUE_MESSAGE;
 
             // if valid, do the calculation
         } else {
@@ -19,7 +20,7 @@ public class MinutesSecondsDuration {
 
     public static String getDurationString(int seconds) {
         if (seconds < 0) {
-            return "Invalid values!";
+            return INVALID_VALUE_MESSAGE;
         } else {
             int minutes = seconds / 60;
             int remainingSeconds = seconds % 60;
