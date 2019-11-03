@@ -21,5 +21,10 @@ public class Main {
         System.out.println(BarkingDog.shouldWakeUp(true,8));
         System.out.println(BarkingDog.shouldWakeUp(true,-1));
         System.out.println("");
+
+        System.out.println("Equal sum checker:");
+
+
+        System.out.println("");
     }
 }
