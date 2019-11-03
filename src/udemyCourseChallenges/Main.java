@@ -22,7 +22,16 @@ public class Main {
         System.out.println(BarkingDog.shouldWakeUp(true,-1));
         System.out.println("");
 
-        System.out.println("Equal sum checker:");
+        System.out.println("Minutes and Seconds duration");
+        System.out.println(MinutesSecondsDuration.getDurationString(100,2));
+        System.out.println(MinutesSecondsDuration.getDurationString(150,26));
+        System.out.println(MinutesSecondsDuration.getDurationString(50,26));
+        System.out.println(MinutesSecondsDuration.getDurationString(-2,2));
+        System.out.println(MinutesSecondsDuration.getDurationString(2,60));
+        System.out.println(MinutesSecondsDuration.getDurationString(100));
+        System.out.println(MinutesSecondsDuration.getDurationString(10000));
+        System.out.println(MinutesSecondsDuration.getDurationString(20));
+        System.out.println(MinutesSecondsDuration.getDurationString(-4));
 
 
         System.out.println("");
