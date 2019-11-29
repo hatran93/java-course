@@ -31,5 +31,28 @@ public class Main {
         System.out.println(LeapYearCalculator.isLeapYear(2600));
         System.out.println(LeapYearCalculator.isLeapYear(1600));
         System.out.println("");
+
+        System.out.println("Minutes and Seconds duration");
+        System.out.println(MinutesSecondsDuration.getDurationString(100,2));
+        System.out.println(MinutesSecondsDuration.getDurationString(150,26));
+        System.out.println(MinutesSecondsDuration.getDurationString(50,26));
+        System.out.println(MinutesSecondsDuration.getDurationString(-2,2));
+        System.out.println(MinutesSecondsDuration.getDurationString(2,60));
+        System.out.println(MinutesSecondsDuration.getDurationString(100));
+        System.out.println(MinutesSecondsDuration.getDurationString(10000));
+        System.out.println(MinutesSecondsDuration.getDurationString(20));
+        System.out.println(MinutesSecondsDuration.getDurationString(-4));
+        System.out.println("");
+
+        System.out.println("Minutes to years and days calculator:");
+        MinutesToYearsAndDaysCalculator.printYearsAndDays(525600);
+        MinutesToYearsAndDaysCalculator.printYearsAndDays(525601);
+        MinutesToYearsAndDaysCalculator.printYearsAndDays(1051200);
+        MinutesToYearsAndDaysCalculator.printYearsAndDays(561600);
+        MinutesToYearsAndDaysCalculator.printYearsAndDays(60);
+        System.out.println("");
+        MinutesToYearsAndDaysCalculator.printYearsAndDays(365);
+        MinutesToYearsAndDaysCalculator.printYearsAndDays(367);
+        MinutesToYearsAndDaysCalculator.printYearsAndDays(360);
     }
 }
